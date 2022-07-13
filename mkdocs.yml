@@ -7,7 +7,11 @@ theme:
   custom_dir: theme
 
 plugins:
-  - search
+  - search:
+      lang:
+        - ru
+        - en
+
   - git-committers:
       repository: YahorDanchanka/75219
       branch: master
