@@ -1,0 +1,14 @@
+site_name: Заголовок
+repo_url: https://github.com/YahorDanchanka/75219
+
+theme:
+  name: material
+  language: ru
+  custom_dir: theme
+
+plugins:
+  - search
+  - git-committers:
+      repository: YahorDanchanka/75219
+      branch: master
+      token: your token
